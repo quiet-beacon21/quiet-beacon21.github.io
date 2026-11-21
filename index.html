@@ -1,0 +1,1467 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>蕾丝猫 - 官方视频品牌站_原创精品影像内容社区</title>
+<meta name="description" content="蕾丝猫官方网站，专注原创精品影像与内容生态的视频品牌平台，汇聚创作者、专题企划与企业动态，深耕垂直领域，持续运营。">
+<meta name="keywords" content="蕾丝猫,蕾丝猫官网,蕾丝猫官方网站,原创视频,内容社区,创作者平台">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%237c5cff'/%3E%3Cstop offset='1' stop-color='%23ff6fa5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Cpath d='M20 18l10 10 4-4 4 4 10-10v22a8 8 0 0 1-8 8H28a8 8 0 0 1-8-8z' fill='%23fff' opacity='.92'/%3E%3Ccircle cx='26' cy='34' r='2.4' fill='%237c5cff'/%3E%3Ccircle cx='38' cy='34' r='2.4' fill='%23ff6fa5'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --lc-ink:#1d1b2e;
+    --lc-ink-soft:#4a4763;
+    --lc-mute:#7b7794;
+    --lc-paper:#f7f5ff;
+    --lc-card:#ffffff;
+    --lc-line:#e6e2f3;
+    --lc-violet:#7c5cff;
+    --lc-violet-deep:#5a3ee0;
+    --lc-pink:#ff6fa5;
+    --lc-mint:#38d6b0;
+    --lc-amber:#ffb547;
+    --lc-shadow:0 14px 38px rgba(72,50,160,.12);
+    --lc-radius:20px;
+    --lc-head:118px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;scroll-padding-top:130px;}
+  body{
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+    color:var(--lc-ink);background:var(--lc-paper);line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+  img{display:block;max-width:100%;}
+  ul{list-style:none;}
+  button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit;}
+  .lc-container{width:min(1180px,92%);margin:0 auto;}
+  .lc-eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:12.5px;letter-spacing:.16em;color:var(--lc-violet-deep);
+    font-weight:700;text-transform:uppercase;
+  }
+  .lc-eyebrow::before{content:"";width:22px;height:2px;border-radius:2px;background:linear-gradient(90deg,var(--lc-violet),var(--lc-pink));}
+  h2{font-size:clamp(24px,3vw,34px);letter-spacing:-.01em;line-height:1.3;}
+  h3{font-size:18px;line-height:1.45;}
+  .lc-section{padding:74px 0;}
+  .lc-section-alt{background:#fbfaff;}
+  .lc-section-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:18px;margin-bottom:36px;}
+  .lc-section-head p{color:var(--lc-mute);max-width:520px;font-size:14.5px;}
+
+  /* ============ 吸顶公告 + 页头 ============ */
+  .lc-sticky{position:sticky;top:0;z-index:80;}
+  .lc-announce{
+    background:linear-gradient(96deg,#2b2148,#5a3ee0 55%,#c03f7e);
+    color:#fff;font-size:13.5px;
+  }
+  .lc-announce .lc-container{display:flex;align-items:center;gap:14px;min-height:40px;padding:7px 0;flex-wrap:wrap;}
+  .lc-announce-tag{
+    flex:none;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.3);
+    padding:2px 10px;border-radius:999px;font-size:11.5px;letter-spacing:.1em;font-weight:700;
+  }
+  .lc-announce-line{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;opacity:.96;}
+  .lc-announce-line time{font-size:12px;opacity:.75;font-variant-numeric:tabular-nums;}
+  .lc-announce-more{margin-left:auto;font-size:12.5px;border-bottom:1px dashed rgba(255,255,255,.55);padding-bottom:1px;}
+  .lc-header{background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--lc-line);}
+  .lc-header .lc-container{display:flex;align-items:center;gap:26px;min-height:78px;}
+  .lc-brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:19px;letter-spacing:.01em;}
+  .lc-brand-mark{
+    width:40px;height:40px;border-radius:13px;flex:none;
+    background:conic-gradient(from 210deg,var(--lc-violet),var(--lc-pink),var(--lc-amber),var(--lc-violet));
+    display:grid;place-items:center;box-shadow:0 6px 16px rgba(124,92,255,.35);
+  }
+  .lc-brand-mark svg{width:22px;height:22px;}
+  .lc-brand small{display:block;font-size:10.5px;letter-spacing:.22em;color:var(--lc-mute);font-weight:600;}
+  .lc-nav{display:flex;gap:4px;margin-left:6px;flex-wrap:wrap;}
+  .lc-nav a{
+    font-size:14.5px;color:var(--lc-ink-soft);padding:8px 12px;border-radius:10px;font-weight:600;
+    transition:background .18s,color .18s;
+  }
+  .lc-nav a:hover,.lc-nav a.is-active{background:#f1eeff;color:var(--lc-violet-deep);}
+  .lc-header-tools{margin-left:auto;display:flex;align-items:center;gap:10px;}
+  .lc-search{position:relative;display:flex;align-items:center;}
+  .lc-search input{
+    width:216px;height:40px;border-radius:999px;border:1px solid var(--lc-line);
+    background:#faf9ff;padding:0 40px 0 38px;font-size:13.5px;color:var(--lc-ink);
+    outline:none;transition:border-color .2s,box-shadow .2s,width .2s;
+  }
+  .lc-search input:focus{border-color:var(--lc-violet);box-shadow:0 0 0 4px rgba(124,92,255,.13);width:248px;}
+  .lc-search svg{position:absolute;left:13px;width:16px;height:16px;color:var(--lc-mute);pointer-events:none;}
+  .lc-search-hint{
+    position:absolute;top:48px;right:0;width:280px;background:#fff;border:1px solid var(--lc-line);
+    border-radius:14px;box-shadow:var(--lc-shadow);padding:10px 12px;font-size:13px;color:var(--lc-ink-soft);
+    display:none;
+  }
+  .lc-search-hint.is-on{display:block;}
+  .lc-search-hint b{color:var(--lc-violet-deep);}
+  .lc-btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    height:42px;padding:0 20px;border-radius:999px;font-size:14px;font-weight:700;
+    transition:transform .18s,box-shadow .18s,background .18s;
+  }
+  .lc-btn-primary{background:linear-gradient(100deg,var(--lc-violet),var(--lc-pink));color:#fff;box-shadow:0 8px 20px rgba(124,92,255,.3);}
+  .lc-btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(124,92,255,.4);}
+  .lc-btn-ghost{border:1px solid var(--lc-line);background:#fff;color:var(--lc-ink-soft);}
+  .lc-btn-ghost:hover{border-color:var(--lc-violet);color:var(--lc-violet-deep);}
+  .lc-burger{display:none;width:42px;height:42px;border-radius:12px;border:1px solid var(--lc-line);background:#fff;place-items:center;}
+  .lc-burger span{display:block;width:18px;height:2px;background:var(--lc-ink);border-radius:2px;margin:3px auto;transition:.25s;}
+  .lc-mobile-nav{display:none;border-top:1px solid var(--lc-line);background:#fff;}
+  .lc-mobile-nav.is-open{display:block;}
+  .lc-mobile-nav ul{padding:10px 4%;}
+  .lc-mobile-nav a{display:block;padding:12px 8px;font-size:15px;font-weight:600;color:var(--lc-ink-soft);border-bottom:1px dashed var(--lc-line);}
+
+  /* ============ 首屏 ============ */
+  .lc-hero{position:relative;overflow:hidden;padding:66px 0 74px;}
+  .lc-hero::before{
+    content:"";position:absolute;inset:-20% -10% auto auto;width:620px;height:620px;border-radius:50%;
+    background:radial-gradient(circle at 30% 30%,rgba(124,92,255,.2),transparent 65%);
+  }
+  .lc-hero::after{
+    content:"";position:absolute;bottom:-30%;left:-12%;width:520px;height:520px;border-radius:50%;
+    background:radial-gradient(circle at 60% 40%,rgba(255,111,165,.18),transparent 68%);
+  }
+  .lc-hero-grid{position:relative;display:grid;grid-template-columns:1.02fr .98fr;gap:52px;align-items:center;}
+  h1{font-size:clamp(38px,5.6vw,62px);line-height:1.12;letter-spacing:-.02em;font-weight:900;}
+  h1 .lc-h1-grad{
+    background:linear-gradient(100deg,var(--lc-violet-deep),var(--lc-pink) 70%,var(--lc-amber));
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .lc-hero-badge{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 20px;}
+  .lc-chip{
+    font-size:12.5px;font-weight:700;color:var(--lc-violet-deep);background:#f0ecff;
+    border:1px solid #ddd4ff;padding:5px 12px;border-radius:999px;
+  }
+  .lc-chip.is-mint{color:#0d7d62;background:#e3fbf4;border-color:#bff0e4;}
+  .lc-chip.is-amber{color:#8a5a00;background:#fff3dc;border-color:#ffe0ab;}
+  .lc-hero-copy p{color:var(--lc-ink-soft);font-size:15.5px;max-width:560px;}
+  .lc-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0 30px;}
+  .lc-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:540px;}
+  .lc-stat{
+    background:#fff;border:1px solid var(--lc-line);border-radius:16px;padding:15px 16px;
+    box-shadow:0 6px 18px rgba(72,50,160,.06);
+  }
+  .lc-stat b{display:block;font-size:23px;letter-spacing:-.02em;color:var(--lc-violet-deep);font-variant-numeric:tabular-nums;}
+  .lc-stat span{font-size:12.5px;color:var(--lc-mute);}
+  /* 主视觉拼贴 */
+  .lc-hero-visual{position:relative;}
+  .lc-hero-main{
+    border-radius:26px;overflow:hidden;box-shadow:0 24px 60px rgba(72,50,160,.24);
+    border:1px solid #efeaff;transform:rotate(-1.2deg);
+  }
+  .lc-hero-main img{width:100%;aspect-ratio:16/10;object-fit:cover;}
+  .lc-hero-sub{
+    position:absolute;right:-14px;bottom:-30px;width:200px;border-radius:18px;overflow:hidden;
+    border:4px solid #fff;box-shadow:0 16px 34px rgba(72,50,160,.22);transform:rotate(2.4deg);
+  }
+  .lc-hero-sub img{width:100%;aspect-ratio:4/3;object-fit:cover;}
+  .lc-hero-play{
+    position:absolute;left:-16px;top:26px;background:#fff;border-radius:14px;padding:9px 14px;
+    display:flex;align-items:center;gap:9px;font-size:13px;font-weight:700;color:var(--lc-violet-deep);
+    box-shadow:0 12px 26px rgba(72,50,160,.2);
+  }
+  .lc-dot-pulse{width:9px;height:9px;border-radius:50%;background:var(--lc-mint);box-shadow:0 0 0 0 rgba(56,214,176,.6);animation:lcPulse 2s infinite;}
+  @keyframes lcPulse{70%{box-shadow:0 0 0 12px rgba(56,214,176,0);}100%{box-shadow:0 0 0 0 rgba(56,214,176,0);}}
+
+  /* ============ 深度解析 ============ */
+  .lc-about-grid{display:grid;grid-template-columns:300px 1fr;gap:44px;align-items:start;}
+  .lc-about-aside{position:sticky;top:150px;}
+  .lc-about-aside .lc-quote{
+    background:linear-gradient(160deg,#2b2148,#5a3ee0);color:#fff;border-radius:22px;padding:26px 24px;
+    box-shadow:var(--lc-shadow);
+  }
+  .lc-about-aside .lc-quote p{font-size:15px;line-height:1.8;opacity:.95;}
+  .lc-about-aside .lc-quote b{display:block;margin-top:16px;font-size:13px;letter-spacing:.12em;opacity:.8;}
+  .lc-about-aside ul{margin-top:18px;display:grid;gap:8px;}
+  .lc-about-aside li{font-size:13.5px;color:var(--lc-ink-soft);display:flex;gap:9px;align-items:flex-start;}
+  .lc-about-aside li::before{content:"";width:7px;height:7px;margin-top:7px;border-radius:50%;flex:none;background:linear-gradient(120deg,var(--lc-violet),var(--lc-pink));}
+  .lc-about-body h2{margin-bottom:16px;}
+  .lc-about-body p{color:var(--lc-ink-soft);font-size:15.3px;margin-bottom:15px;text-align:justify;}
+  .lc-about-body p b{color:var(--lc-violet-deep);}
+  .lc-mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px;}
+  .lc-mini{border:1px solid var(--lc-line);background:#fff;border-radius:16px;padding:16px;}
+  .lc-mini b{color:var(--lc-ink);font-size:14.5px;display:block;margin-bottom:5px;}
+  .lc-mini span{font-size:12.8px;color:var(--lc-mute);line-height:1.65;display:block;}
+
+  /* ============ 焦点内容 ============ */
+  .lc-focus-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:22px;}
+  .lc-focus-main{
+    position:relative;border-radius:var(--lc-radius);overflow:hidden;background:#000;
+    box-shadow:var(--lc-shadow);
+  }
+  .lc-focus-main img{width:100%;aspect-ratio:16/10;object-fit:cover;transition:transform .5s;}
+  .lc-focus-main:hover img{transform:scale(1.04);}
+  .lc-cover-mask{
+    position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,12,44,.06) 30%,rgba(20,12,44,.82));
+    display:flex;flex-direction:column;justify-content:flex-end;padding:24px;color:#fff;
+  }
+  .lc-cover-tag{
+    align-self:flex-start;background:rgba(255,255,255,.16);backdrop-filter:blur(6px);
+    border:1px solid rgba(255,255,255,.3);border-radius:999px;font-size:11.5px;padding:4px 11px;font-weight:700;
+    margin-bottom:auto;
+  }
+  .lc-cover-mask h3{font-size:22px;margin-bottom:8px;}
+  .lc-cover-mask p{font-size:13.5px;opacity:.86;max-width:92%;}
+  .lc-focus-meta{display:flex;gap:16px;font-size:12.5px;opacity:.82;margin-top:12px;flex-wrap:wrap;}
+  .lc-focus-list{display:grid;gap:14px;}
+  .lc-focus-item{
+    display:grid;grid-template-columns:132px 1fr;gap:14px;background:#fff;border:1px solid var(--lc-line);
+    border-radius:16px;overflow:hidden;transition:transform .2s,box-shadow .2s;
+  }
+  .lc-focus-item:hover{transform:translateY(-3px);box-shadow:var(--lc-shadow);}
+  .lc-focus-item .lc-thumb{position:relative;overflow:hidden;}
+  .lc-focus-item .lc-thumb img{width:100%;height:100%;min-height:92px;object-fit:cover;}
+  .lc-play-badge{
+    position:absolute;left:8px;bottom:8px;width:22px;height:22px;border-radius:50%;
+    background:rgba(255,255,255,.9);display:grid;place-items:center;
+  }
+  .lc-play-badge::after{content:"";border-left:7px solid var(--lc-violet-deep);border-top:4.5px solid transparent;border-bottom:4.5px solid transparent;margin-left:2px;}
+  .lc-focus-item .lc-fi-body{padding:13px 14px 13px 0;}
+  .lc-focus-item h3{font-size:15px;margin-bottom:6px;}
+  .lc-focus-item p{font-size:12.6px;color:var(--lc-mute);line-height:1.6;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+  .lc-fi-foot{display:flex;gap:12px;font-size:12px;color:var(--lc-mute);margin-top:8px;flex-wrap:wrap;}
+
+  /* ============ 视频流 ============ */
+  .lc-filter-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px;}
+  .lc-filter{
+    font-size:13.3px;font-weight:600;color:var(--lc-ink-soft);border:1px solid var(--lc-line);
+    background:#fff;border-radius:999px;padding:7px 15px;transition:.18s;
+  }
+  .lc-filter.is-active,.lc-filter:hover{background:var(--lc-violet);border-color:var(--lc-violet);color:#fff;}
+  .lc-video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+  .lc-video-card{
+    background:#fff;border:1px solid var(--lc-line);border-radius:18px;overflow:hidden;
+    display:flex;flex-direction:column;transition:transform .22s,box-shadow .22s;
+  }
+  .lc-video-card:hover{transform:translateY(-5px);box-shadow:var(--lc-shadow);}
+  .lc-video-card.is-hidden{display:none;}
+  .lc-video-thumb{position:relative;overflow:hidden;}
+  .lc-video-thumb img{width:100%;aspect-ratio:16/9;object-fit:cover;transition:transform .5s;}
+  .lc-video-card:hover .lc-video-thumb img{transform:scale(1.05);}
+  .lc-thumb-tag{
+    position:absolute;left:10px;top:10px;font-size:11.5px;font-weight:700;color:#fff;
+    background:rgba(29,20,60,.62);backdrop-filter:blur(6px);padding:3px 10px;border-radius:999px;
+  }
+  .lc-thumb-time{
+    position:absolute;right:10px;bottom:10px;font-size:11.5px;color:#fff;background:rgba(0,0,0,.6);
+    padding:2px 8px;border-radius:6px;font-variant-numeric:tabular-nums;
+  }
+  .lc-video-body{padding:15px 16px 14px;display:flex;flex-direction:column;gap:8px;flex:1;}
+  .lc-video-body h3{font-size:15.5px;line-height:1.45;}
+  .lc-video-desc{font-size:13px;color:var(--lc-mute);line-height:1.65;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+  .lc-video-author{display:flex;align-items:center;gap:8px;font-size:12.6px;color:var(--lc-ink-soft);margin-top:auto;}
+  .lc-avatar{
+    width:24px;height:24px;border-radius:50%;flex:none;display:grid;place-items:center;
+    font-size:11px;font-weight:800;color:#fff;letter-spacing:0;
+  }
+  .lc-video-stats{font-size:12px;color:var(--lc-mute);display:flex;gap:12px;}
+  .lc-video-acts{display:flex;gap:8px;padding-top:10px;border-top:1px dashed var(--lc-line);}
+  .lc-act{
+    display:inline-flex;align-items:center;gap:5px;font-size:12.3px;color:var(--lc-mute);
+    padding:5px 10px;border-radius:9px;background:#faf9ff;border:1px solid var(--lc-line);transition:.18s;
+  }
+  .lc-act:hover{color:var(--lc-violet-deep);border-color:#d8cdff;background:#f3efff;}
+  .lc-act.is-liked{color:var(--lc-pink);border-color:#ffd2e3;background:#fff2f7;font-weight:700;}
+  .lc-act.is-saved{color:var(--lc-amber);border-color:#ffe3b6;background:#fff8ec;font-weight:700;}
+
+  /* ============ 专题 ============ */
+  .lc-topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+  .lc-topic{
+    position:relative;border-radius:var(--lc-radius);overflow:hidden;min-height:250px;
+    display:flex;flex-direction:column;justify-content:flex-end;color:#fff;padding:22px;
+  }
+  .lc-topic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.02);transition:transform .6s;}
+  .lc-topic:hover img{transform:scale(1.09);}
+  .lc-topic::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,10,40,.05),rgba(18,10,40,.86));}
+  .lc-topic>*{position:relative;z-index:2;}
+  .lc-topic-status{
+    align-self:flex-start;font-size:11.5px;font-weight:700;background:rgba(255,255,255,.18);
+    border:1px solid rgba(255,255,255,.32);padding:3px 10px;border-radius:999px;margin-bottom:auto;
+  }
+  .lc-topic h3{font-size:19px;margin:10px 0 7px;}
+  .lc-topic p{font-size:13px;opacity:.85;line-height:1.6;}
+  .lc-topic-foot{display:flex;justify-content:space-between;font-size:12px;opacity:.8;margin-top:12px;}
+
+  /* ============ 创作者 ============ */
+  .lc-creator-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+  .lc-creator{
+    background:#fff;border:1px solid var(--lc-line);border-radius:18px;padding:22px 18px;text-align:center;
+    transition:transform .2s,box-shadow .2s;
+  }
+  .lc-creator:hover{transform:translateY(-4px);box-shadow:var(--lc-shadow);}
+  .lc-creator-avatar{
+    width:66px;height:66px;border-radius:22px;margin:0 auto 12px;display:grid;place-items:center;
+    font-size:24px;font-weight:900;color:#fff;box-shadow:0 10px 22px rgba(124,92,255,.28);
+  }
+  .lc-creator h3{font-size:16px;margin-bottom:4px;}
+  .lc-creator-role{font-size:12.3px;color:var(--lc-violet-deep);font-weight:700;margin-bottom:9px;}
+  .lc-creator p{font-size:12.6px;color:var(--lc-mute);line-height:1.65;min-height:62px;}
+  .lc-creator-foot{display:flex;justify-content:space-around;margin-top:12px;padding-top:12px;border-top:1px dashed var(--lc-line);}
+  .lc-creator-foot div b{display:block;font-size:14.5px;color:var(--lc-ink);font-variant-numeric:tabular-nums;}
+  .lc-creator-foot div span{font-size:11.5px;color:var(--lc-mute);}
+  .lc-creator-btn{
+    margin-top:14px;width:100%;height:36px;border-radius:10px;border:1px solid var(--lc-line);
+    background:#faf9ff;font-size:13px;font-weight:700;color:var(--lc-violet-deep);transition:.18s;
+  }
+  .lc-creator-btn:hover{background:var(--lc-violet);border-color:var(--lc-violet);color:#fff;}
+
+  /* ============ 随笔 ============ */
+  .lc-story-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+  .lc-story{background:#fff;border:1px solid var(--lc-line);border-radius:18px;padding:24px;position:relative;overflow:hidden;}
+  .lc-story::before{content:"";position:absolute;left:0;top:0;width:100%;height:4px;background:linear-gradient(90deg,var(--lc-violet),var(--lc-pink),var(--lc-amber));}
+  .lc-story-tag{font-size:11.5px;font-weight:700;color:var(--lc-pink);letter-spacing:.1em;}
+  .lc-story h3{font-size:16.5px;margin:8px 0 10px;}
+  .lc-story p{font-size:13.4px;color:var(--lc-ink-soft);line-height:1.8;text-align:justify;}
+  .lc-story-foot{display:flex;justify-content:space-between;font-size:12px;color:var(--lc-mute);margin-top:14px;}
+
+  /* ============ 评价 ============ */
+  .lc-review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+  .lc-review{background:#fff;border:1px solid var(--lc-line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:10px;}
+  .lc-review-head{display:flex;align-items:center;gap:10px;}
+  .lc-review-head .lc-avatar{width:32px;height:32px;font-size:13px;border-radius:11px;}
+  .lc-review-name{font-size:13.5px;font-weight:700;}
+  .lc-review-date{font-size:11.5px;color:var(--lc-mute);}
+  .lc-review p{font-size:13.2px;color:var(--lc-ink-soft);line-height:1.75;flex:1;}
+  .lc-stars{color:var(--lc-amber);font-size:12.5px;letter-spacing:2px;}
+
+  /* ============ 更新日志 ============ */
+  .lc-log-list{display:grid;gap:0;}
+  .lc-log{
+    display:grid;grid-template-columns:120px 1fr auto;gap:20px;align-items:start;
+    padding:20px 4px;border-bottom:1px dashed var(--lc-line);
+  }
+  .lc-log time{font-size:12.8px;color:var(--lc-mute);font-variant-numeric:tabular-nums;padding-top:3px;}
+  .lc-log h3{font-size:15.5px;margin-bottom:5px;}
+  .lc-log p{font-size:13.2px;color:var(--lc-mute);line-height:1.65;}
+  .lc-log-tag{font-size:11.5px;font-weight:700;color:var(--lc-violet-deep);background:#f1eeff;padding:4px 11px;border-radius:999px;white-space:nowrap;height:fit-content;}
+
+  /* ============ FAQ ============ */
+  .lc-faq{display:grid;gap:10px;max-width:920px;margin:0 auto;}
+  .lc-faq details{background:#fff;border:1px solid var(--lc-line);border-radius:14px;padding:0;overflow:hidden;}
+  .lc-faq summary{
+    list-style:none;cursor:pointer;padding:17px 20px;font-size:15px;font-weight:700;
+    display:flex;justify-content:space-between;align-items:center;gap:14px;
+  }
+  .lc-faq summary::-webkit-details-marker{display:none;}
+  .lc-faq summary::after{content:"+";font-size:20px;color:var(--lc-violet);font-weight:400;transition:transform .2s;flex:none;}
+  .lc-faq details[open] summary::after{transform:rotate(45deg);}
+  .lc-faq details p{padding:0 20px 18px;font-size:13.8px;color:var(--lc-ink-soft);line-height:1.8;}
+
+  /* ============ 联系 ============ */
+  .lc-contact-panel{
+    background:linear-gradient(140deg,#2b2148,#4b31b8 58%,#b23b76);border-radius:26px;color:#fff;
+    padding:44px;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;box-shadow:0 24px 60px rgba(72,50,160,.28);
+  }
+  .lc-contact-panel h2{color:#fff;}
+  .lc-contact-panel p{font-size:14.5px;opacity:.88;margin-top:12px;max-width:480px;}
+  .lc-contact-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px;}
+  .lc-contact-panel .lc-btn-primary{background:#fff;color:var(--lc-violet-deep);box-shadow:0 8px 20px rgba(0,0,0,.22);}
+  .lc-contact-panel .lc-btn-ghost{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.35);color:#fff;}
+  .lc-contact-info{display:grid;gap:14px;align-content:center;}
+  .lc-contact-info div{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:14px 16px;}
+  .lc-contact-info b{display:block;font-size:12.5px;letter-spacing:.1em;opacity:.72;margin-bottom:3px;}
+  .lc-contact-info span{font-size:14.5px;font-weight:600;}
+
+  /* ============ 页脚 ============ */
+  .lc-footer{background:#171327;color:#b7b1cd;padding:56px 0 26px;font-size:13.5px;}
+  .lc-footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:34px;}
+  .lc-footer h4{color:#fff;font-size:14px;margin-bottom:14px;letter-spacing:.05em;}
+  .lc-footer li{margin-bottom:9px;}
+  .lc-footer a:hover{color:#fff;}
+  .lc-footer-brand{display:flex;align-items:center;gap:11px;color:#fff;font-weight:800;font-size:18px;margin-bottom:14px;}
+  .lc-footer-brand .lc-brand-mark{box-shadow:none;}
+  .lc-footer-desc{font-size:13px;line-height:1.85;max-width:330px;color:#918aa8;}
+  .lc-footer-bottom{
+    border-top:1px solid rgba(255,255,255,.1);margin-top:38px;padding-top:20px;
+    display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;font-size:12.3px;color:#807a97;
+  }
+  .lc-footer-bottom span{white-space:nowrap;}
+
+  /* ============ 通用弹层 / Toast ============ */
+  .lc-toast{
+    position:fixed;left:50%;bottom:38px;transform:translate(-50%,20px);z-index:200;
+    background:#241d3d;color:#fff;padding:12px 22px;border-radius:12px;font-size:13.5px;font-weight:600;
+    box-shadow:0 16px 40px rgba(0,0,0,.28);opacity:0;pointer-events:none;transition:.28s;
+  }
+  .lc-toast.is-on{opacity:1;transform:translate(-50%,0);}
+  .lc-modal{
+    position:fixed;inset:0;z-index:190;display:none;place-items:center;padding:20px;
+    background:rgba(23,19,39,.56);backdrop-filter:blur(4px);
+  }
+  .lc-modal.is-on{display:grid;}
+  .lc-modal-box{
+    background:#fff;border-radius:22px;padding:30px;width:min(520px,94vw);max-height:82vh;overflow:auto;
+    box-shadow:0 30px 80px rgba(0,0,0,.35);position:relative;
+  }
+  .lc-modal-box h3{font-size:20px;margin-bottom:12px;}
+  .lc-modal-box p{font-size:14px;color:var(--lc-ink-soft);line-height:1.8;margin-bottom:10px;}
+  .lc-modal-close{position:absolute;right:14px;top:12px;width:32px;height:32px;border-radius:50%;background:#f4f1ff;color:var(--lc-violet-deep);font-size:18px;line-height:1;display:grid;place-items:center;}
+  .lc-modal-box input,.lc-modal-box textarea,.lc-modal-box select{
+    width:100%;border:1px solid var(--lc-line);border-radius:12px;padding:11px 14px;font-size:14px;
+    font-family:inherit;margin-bottom:12px;outline:none;background:#faf9ff;color:var(--lc-ink);
+  }
+  .lc-modal-box textarea{min-height:96px;resize:vertical;}
+  .lc-modal-box input:focus,.lc-modal-box textarea:focus{border-color:var(--lc-violet);}
+  .lc-share-row{display:flex;gap:10px;flex-wrap:wrap;}
+  .lc-share-row button{flex:1;min-width:96px;height:44px;border-radius:12px;background:#f4f1ff;color:var(--lc-violet-deep);font-weight:700;font-size:13.5px;}
+  .lc-to-top{
+    position:fixed;right:24px;bottom:24px;width:46px;height:46px;border-radius:50%;z-index:120;
+    background:linear-gradient(120deg,var(--lc-violet),var(--lc-pink));color:#fff;display:grid;place-items:center;
+    box-shadow:0 12px 28px rgba(124,92,255,.4);opacity:0;pointer-events:none;transition:.25s;
+  }
+  .lc-to-top.is-on{opacity:1;pointer-events:auto;}
+  .lc-to-top:hover{transform:translateY(-3px);}
+
+  @media (max-width:1024px){
+    .lc-hero-grid,.lc-focus-grid,.lc-about-grid,.lc-contact-panel{grid-template-columns:1fr;}
+    .lc-about-aside{position:static;}
+    .lc-video-grid,.lc-topic-grid,.lc-story-grid,.lc-review-grid{grid-template-columns:repeat(2,1fr);}
+    .lc-creator-grid{grid-template-columns:repeat(2,1fr);}
+    .lc-footer-grid{grid-template-columns:1fr 1fr;}
+    .lc-nav{display:none;}
+    .lc-burger{display:grid;}
+    .lc-search input{width:170px;}
+    .lc-search input:focus{width:186px;}
+  }
+  @media (max-width:640px){
+    .lc-section{padding:52px 0;}
+    .lc-video-grid,.lc-topic-grid,.lc-story-grid,.lc-review-grid,.lc-creator-grid,.lc-mini-grid{grid-template-columns:1fr;}
+    .lc-header-tools .lc-btn-primary{display:none;}
+    .lc-search input{width:140px;}
+    .lc-search input:focus{width:150px;}
+    .lc-search-hint{width:230px;}
+    .lc-log{grid-template-columns:1fr;gap:6px;}
+    .lc-contact-panel{padding:26px;}
+    .lc-footer-grid{grid-template-columns:1fr;}
+    .lc-hero-sub{width:150px;right:0;bottom:-22px;}
+    .lc-stats{grid-template-columns:1fr 1fr;}
+    .lc-focus-item{grid-template-columns:110px 1fr;}
+  }
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="lc-sticky">
+  <div class="lc-announce">
+    <div class="lc-container">
+      <span class="lc-announce-tag">官方发布</span>
+      <span class="lc-announce-line">
+        <time datetime="2026-11-18">11月18日</time>
+        <span>「蕾丝猫·冬日影像企划」第二季开放报名，新增 12 位签约创作者与 4 个专题片单</span>
+      </span>
+      <a class="lc-announce-more" href="#lc-updates">查看全部更新</a>
+    </div>
+  </div>
+  <header class="lc-header">
+    <div class="lc-container">
+      <a class="lc-brand" href="#lc-top" aria-label="蕾丝猫官方网站首页">
+        <span class="lc-brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" fill="none"><path d="M20 18l10 10 4-4 4 4 10-10v22a8 8 0 0 1-8 8H28a8 8 0 0 1-8-8z" fill="#fff"/><circle cx="26" cy="34" r="2.4" fill="#5a3ee0"/><circle cx="38" cy="34" r="2.4" fill="#ff6fa5"/></svg>
+        </span>
+        <span>蕾丝猫<small>LACE CAT STUDIO</small></span>
+      </a>
+      <nav class="lc-nav" aria-label="主导航">
+        <a href="#lc-top" class="is-active">首页</a>
+        <a href="#lc-focus">焦点内容</a>
+        <a href="#lc-topics">专题企划</a>
+        <a href="#lc-creators">创作者</a>
+        <a href="#lc-updates">企业动态</a>
+        <a href="#lc-faq">帮助</a>
+        <a href="#lc-contact">联系</a>
+      </nav>
+      <div class="lc-header-tools">
+        <div class="lc-search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+          <input id="lcSearchInput" type="search" placeholder="搜索蕾丝猫内容" aria-label="站内内容搜索">
+          <div class="lc-search-hint" id="lcSearchHint" role="status" aria-live="polite"></div>
+        </div>
+        <button class="lc-btn lc-btn-primary" data-lc-open="submit">投稿入口</button>
+        <button class="lc-burger" id="lcBurger" aria-label="展开导航菜单" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="lc-mobile-nav" id="lcMobileNav">
+      <ul>
+        <li><a href="#lc-top">首页</a></li>
+        <li><a href="#lc-focus">焦点内容</a></li>
+        <li><a href="#lc-topics">专题企划</a></li>
+        <li><a href="#lc-creators">创作者</a></li>
+        <li><a href="#lc-updates">企业动态</a></li>
+        <li><a href="#lc-faq">帮助</a></li>
+        <li><a href="#lc-contact">联系</a></li>
+      </ul>
+    </div>
+  </header>
+</div>
+
+<main id="lc-top">
+
+  <!-- 首屏 -->
+  <section class="lc-hero">
+    <div class="lc-container lc-hero-grid">
+      <div class="lc-hero-copy">
+        <span class="lc-eyebrow">蕾丝猫官方网站 · 原创影像品牌</span>
+        <h1>蕾丝猫<span class="lc-h1-grad">官网</span></h1>
+        <div class="lc-hero-badge">
+          <span class="lc-chip">官方认证</span>
+          <span class="lc-chip is-mint">企业级内容生态</span>
+          <span class="lc-chip is-amber">正版高清</span>
+        </div>
+        <p>
+          蕾丝猫是一家以原创影像为核心的企业级视频品牌平台，深耕生活美学与人物故事方向，
+          以专业制作与持续运营构建值得信赖的内容生态。我们相信真实的力量，坚持匠心与创新，
+          为创作者提供稳定的成长空间，为用户提供有品质、有温度的精品内容。
+        </p>
+        <div class="lc-hero-actions">
+          <button class="lc-btn lc-btn-primary" data-lc-open="submit">报名成为创作者</button>
+          <a class="lc-btn lc-btn-ghost" href="#lc-focus">浏览焦点内容</a>
+        </div>
+        <div class="lc-stats">
+          <div class="lc-stat"><b data-lc-count="2860">0</b><span>原创影像作品</span></div>
+          <div class="lc-stat"><b data-lc-count="146">0</b><span>签约创作者</span></div>
+          <div class="lc-stat"><b data-lc-count="38">0</b><span>专题企划已上线</span></div>
+        </div>
+      </div>
+      <div class="lc-hero-visual">
+        <div class="lc-hero-play"><span class="lc-dot-pulse"></span>本周官方首发 · 4 支新片</div>
+        <div class="lc-hero-main">
+          <img alt="蕾丝猫品牌主视觉：暖紫色灯光下的城市天台影像现场" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23352a63'/%3E%3Cstop offset='.55' stop-color='%237c5cff'/%3E%3Cstop offset='1' stop-color='%23ff9ec3'/%3E%3C/linearGradient%3E%3ClinearGradient id='fl' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ffd9a8'/%3E%3Cstop offset='1' stop-color='%23ff7f9e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='500' fill='url(%23sky)'/%3E%3Ccircle cx='620' cy='120' r='58' fill='%23ffe3b0' opacity='.9'/%3E%3Cg opacity='.55' fill='%23201a3c'%3E%3Crect x='30' y='250' width='70' height='250'/%3E%3Crect x='120' y='200' width='54' height='300'/%3E%3Crect x='196' y='290' width='86' height='210'/%3E%3Crect x='640' y='230' width='60' height='270'/%3E%3Crect x='716' y='280' width='84' height='220'/%3E%3C/g%3E%3Cg opacity='.85'%3E%3Crect x='40' y='272' width='10' height='10' fill='%23ffd7a1'/%3E%3Crect x='68' y='300' width='10' height='10' fill='%23ffd7a1'/%3E%3Crect x='132' y='232' width='9' height='9' fill='%23ffd7a1'/%3E%3Crect x='150' y='268' width='9' height='9' fill='%23ffd7a1'/%3E%3Crect x='212' y='318' width='10' height='10' fill='%23ffd7a1'/%3E%3Crect x='248' y='352' width='10' height='10' fill='%23ffd7a1'/%3E%3Crect x='654' y='266' width='9' height='9' fill='%23ffd7a1'/%3E%3Crect x='736' y='312' width='10' height='10' fill='%23ffd7a1'/%3E%3C/g%3E%3Crect x='0' y='430' width='800' height='70' fill='%23171327'/%3E%3Ccircle cx='300' cy='400' r='34' fill='url(%23fl)'/%3E%3Crect x='266' y='432' width='68' height='66' rx='16' fill='%23241d3d'/%3E%3Crect x='384' y='300' width='14' height='190' rx='6' fill='%23ffe3b0'/%3E%3Crect x='366' y='286' width='50' height='30' rx='8' fill='%23ff9ec3'/%3E%3Cg fill='%23fff' opacity='.92'%3E%3Ccircle cx='120' cy='90' r='2.6'/%3E%3Ccircle cx='240' cy='60' r='2'/%3E%3Ccircle cx='480' cy='80' r='2.4'/%3E%3Ccircle cx='540' cy='180' r='2'/%3E%3C/g%3E%3C/svg%3E">
+        </div>
+        <div class="lc-hero-sub">
+          <img alt="蕾丝猫创作者在室内布光拍摄的幕后画面" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Cdefs%3E%3ClinearGradient id='r1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23fff0e2'/%3E%3Cstop offset='1' stop-color='%23ffd0e0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='400' height='300' fill='url(%23r1)'/%3E%3Crect x='40' y='60' width='130' height='96' rx='8' fill='%235a3ee0' opacity='.8'/%3E%3Ccircle cx='300' cy='90' r='40' fill='%23ffb547'/%3E%3Crect x='60' y='200' width='280' height='16' rx='8' fill='%23fff'/%3E%3Crect x='96' y='216' width='14' height='60' fill='%23c9a9ff'/%3E%3Crect x='290' y='216' width='14' height='60' fill='%23c9a9ff'/%3E%3Cpath d='M170 90l34 20-34 20z' fill='%23fff'/%3E%3Crect x='150' y='160' width='110' height='24' rx='12' fill='%237c5cff' opacity='.45'/%3E%3C/svg%3E">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 深度解析 -->
+  <section class="lc-section lc-section-alt" id="lc-about">
+    <div class="lc-container lc-about-grid">
+      <aside class="lc-about-aside">
+        <div class="lc-quote">
+          <p>“让每一段真实的日常，都值得被认真记录。”</p>
+          <b>—— 蕾丝猫品牌使命</b>
+        </div>
+        <ul>
+          <li>原创内容占比 96% 以上</li>
+          <li>签约创作者全流程扶持</li>
+          <li>官方专题季度更新</li>
+          <li>企业级内容审核标准</li>
+        </ul>
+      </aside>
+      <div class="lc-about-body">
+        <span class="lc-eyebrow">关于蕾丝猫</span>
+        <h2>一个以原创为底色的视频品牌官网</h2>
+        <p>
+          蕾丝猫起步于一次对小屏幕影像的实验，如今已成长为一个具备完整内容生态的视频品牌平台。
+          作为<strong>官方网站</strong>对外展示的窗口，这里承载着我们全部的品牌故事、专题企划、创作者矩阵与企业动态。
+          我们并不追求数量上的轰炸，而是坚持每一支作品都经过选题、拍摄、剪辑、审校四道工序，
+          由专业团队与创作者共同打磨，最终形成可被反复观看的精品内容。
+        </p>
+        <p>
+          在蕾丝猫，内容的方向始终围绕“真实”与“陪伴”展开。我们记录了城市清晨的早点摊、
+          深夜加班的写字楼、海边独自散步的人，也记录了手作工坊里反复打磨的木料声。
+          这些看似普通的片段，构成了品牌最重要的资产。我们希望蕾丝猫的影像不喧哗，
+          却能在某个瞬间给人一点力量。这种坚持，让平台在垂直领域内积累了稳定的口碑，
+          也让越来越多的创作者愿意把作品放在这里首发。
+        </p>
+        <p>
+          在创作者侧，我们提供从选题策划、脚本打磨到拍摄支持、后期指导的一站式协作机制。
+          每位签约创作者都有专属的对接编辑，季度沟通选题方向，月度复盘数据表现。
+          我们鼓励多元与包容的表达，也尊重创作者的个人风格，不强行套用统一模板。
+          正是这种协作方式，让蕾丝猫的内容库持续保持着新鲜的质感，
+          既有一以贯之的品牌调性，也有每位作者鲜明的个人印记。
+        </p>
+        <p>
+          在用户侧，蕾丝猫坚持<strong>用户至上</strong>的原则。站内不设置干扰性弹窗，
+          不做标题化的夸张表达，所有作品的简介、时长、创作信息都完整呈现，方便用户按需浏览。
+          我们同时上线了收藏、点赞、评论与分享功能，让好内容能够被更多人看见，
+          也让创作者能够第一时间收到反馈。我们相信，一个健康的内容生态，
+          需要平台、创作者与用户三方共同维护。
+        </p>
+        <p>
+          <strong>企业动态</strong>是我们与外界沟通的重要通道。每一次专题上线、每一次创作者招募、
+          每一次线下放映活动，都会在这里同步发布。我们也会定期公开内容审核标准与版权说明，
+          让品牌的运营更透明。作为一个持续运营的品牌，我们深知信任的建立需要时间，
+          因此愿意把每一步都做得踏实一些，把每一支片子都拍得认真一些。
+        </p>
+        <p>
+          面向未来，蕾丝猫将继续深耕原创影像这一垂直领域，扩展专题类型，完善创作者成长体系，
+          探索更多元的表达形式。我们希望成为用户首选的原创影像社区，
+          也希望成为创作者值得信赖的长期伙伴。这条路上，蕾丝猫愿意慢一点，
+          但走得稳一点，让每一份创意都被认真对待，让每一段成长都被温柔记录。
+        </p>
+        <div class="lc-mini-grid">
+          <div class="lc-mini"><b>原创优先</b><span>选题、拍摄、剪辑全流程自主完成，拒绝搬运与拼凑。</span></div>
+          <div class="lc-mini"><b>专业制作</b><span>标准化制作流程，画面、声音与叙事三重把控。</span></div>
+          <div class="lc-mini"><b>长期陪伴</b><span>与创作者建立季度协作机制，陪伴式成长。</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点内容 -->
+  <section class="lc-section" id="lc-focus">
+    <div class="lc-container">
+      <div class="lc-section-head">
+        <div>
+          <span class="lc-eyebrow">焦点内容</span>
+          <h2>本周官方首发的重点作品</h2>
+        </div>
+        <p>由蕾丝猫编辑部与签约创作者联合推荐，覆盖人物访谈、城市探索与生活记录三个方向。</p>
+      </div>
+      <div class="lc-focus-grid">
+        <article class="lc-focus-main">
+          <img alt="焦点作品封面：深夜面馆里的一碗热汤面纪录片场景" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3Cdefs%3E%3ClinearGradient id='n1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23201536'/%3E%3Cstop offset='1' stop-color='%234a2f6e'/%3E%3C/linearGradient%3E%3ClinearGradient id='n2' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ffca7a'/%3E%3Cstop offset='1' stop-color='%23ff8a5c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='500' fill='url(%23n1)'/%3E%3Crect x='0' y='330' width='800' height='170' fill='%23150f26'/%3E%3Crect x='120' y='150' width='560' height='20' rx='10' fill='%235d3f86'/%3E%3Cg%3E%3Ccircle cx='250' cy='260' r='46' fill='%23ffd9a8'/%3E%3Crect x='214' y='300' width='72' height='90' rx='20' fill='%235a3ee0'/%3E%3C/g%3E%3Cg%3E%3Ccircle cx='556' cy='250' r='52' fill='%23ffb9cf'/%3E%3Crect x='516' y='296' width='80' height='96' rx='22' fill='%237c5cff'/%3E%3C/g%3E%3Cellipse cx='400' cy='400' rx='110' ry='26' fill='%232a1c44'/%3E%3Cellipse cx='400' cy='382' rx='86' ry='24' fill='url(%23n2)'/%3E%3Cpath d='M356 372q44-44 88 0' stroke='%23fff3d6' stroke-width='7' fill='none' opacity='.8'/%3E%3Cellipse cx='400' cy='382' rx='62' ry='16' fill='%23ffe9c4' opacity='.7'/%3E%3Cg stroke='%23ffca7a' stroke-width='4' fill='none' opacity='.65'%3E%3Cpath d='M362 300c-14-20 10-30-4-48'/%3E%3Cpath d='M400 288c-14-20 10-30-4-48'/%3E%3Cpath d='M438 300c-14-20 10-30-4-48'/%3E%3C/g%3E%3Cg fill='%23ffb547' opacity='.95'%3E%3Ccircle cx='160' cy='96' r='7'/%3E%3Ccircle cx='680' cy='120' r='5'/%3E%3Ccircle cx='620' cy='70' r='4'/%3E%3C/g%3E%3C/svg%3E">
+          <div class="lc-cover-mask">
+            <span class="lc-cover-tag">焦点 · 人物访谈</span>
+            <h3>一碗面里的三十年：街角面馆的凌晨与晚归的人</h3>
+            <p>跟随店主老陈的作息，记录一家面馆从凌晨四点备料，到深夜最后一位客人的全过程。</p>
+            <div class="lc-focus-meta"><span>蕾丝猫纪录片组</span><span>时长 18:42</span><span>11.6 万次播放</span></div>
+          </div>
+        </article>
+        <div class="lc-focus-list">
+          <article class="lc-focus-item">
+            <div class="lc-thumb">
+              <img alt="城市探索封面：清晨六点的老城区石阶小巷" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 220'%3E%3Crect width='320' height='220' fill='%23cfe0ef'/%3E%3Ccircle cx='256' cy='52' r='30' fill='%23ffe3b0'/%3E%3Cpath d='M0 160h320v60H0z' fill='%237c9db8'/%3E%3Cg fill='%2357738f'%3E%3Crect x='24' y='96' width='54' height='64'/%3E%3Crect x='96' y='76' width='42' height='84'/%3E%3Crect x='200' y='104' width='58' height='56'/%3E%3C/g%3E%3Cg fill='%23fff' opacity='.7'%3E%3Crect x='36' y='108' width='12' height='12'/%3E%3Crect x='108' y='90' width='10' height='10'/%3E%3Crect x='214' y='118' width='12' height='12'/%3E%3C/g%3E%3Cpath d='M150 160l26-14 26 14z' fill='%233f5a75'/%3E%3C/svg%3E">
+              <span class="lc-play-badge" aria-hidden="true"></span>
+            </div>
+            <div class="lc-fi-body">
+              <h3>清晨六点的老城区：一条巷子的醒来方式</h3>
+              <p>从第一盏灯亮起到早点摊收摊，城市探索系列第三支。</p>
+              <div class="lc-fi-foot"><span>城市观察局</span><span>12:06</span><span>4.2 万</span></div>
+            </div>
+          </article>
+          <article class="lc-focus-item">
+            <div class="lc-thumb">
+              <img alt="手作教程封面：木工台面上的凿子与半成品木盒" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 220'%3E%3Crect width='320' height='220' fill='%23f0e0c8'/%3E%3Crect y='150' width='320' height='70' fill='%23c79b6b'/%3E%3Crect x='40' y='96' width='150' height='60' rx='6' fill='%23a97847'/%3E%3Crect x='52' y='108' width='126' height='36' rx='3' fill='%23d8b184'/%3E%3Crect x='196' y='40' width='16' height='120' rx='6' fill='%23684b32'/%3E%3Crect x='188' y='30' width='32' height='26' rx='5' fill='%238a8f96'/%3E%3Ccircle cx='266' cy='120' r='22' fill='%23ffb547' opacity='.8'/%3E%3Cpath d='M0 70q80-30 160 0t160 0' stroke='%23b8905f' stroke-width='3' fill='none' opacity='.5'/%3E%3C/svg%3E">
+              <span class="lc-play-badge" aria-hidden="true"></span>
+            </div>
+            <div class="lc-fi-body">
+              <h3>新手木工第一步：做一个不用钉子的木盒</h3>
+              <p>从选料到打磨，完整拆解榫卯结构的入门做法。</p>
+              <div class="lc-fi-foot"><span>木隅手作</span><span>21:35</span><span>3.8 万</span></div>
+            </div>
+          </article>
+          <article class="lc-focus-item">
+            <div class="lc-thumb">
+              <img alt="生活记录封面：窗台上晒太阳的橘色猫咪与毛线球" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 220'%3E%3Crect width='320' height='220' fill='%23fff2dc'/%3E%3Crect x='30' y='20' width='120' height='110' rx='10' fill='%23bfe3ff'/%3E%3Crect x='84' y='20' width='12' height='110' fill='%23fff2dc'/%3E%3Crect x='30' y='66' width='120' height='12' fill='%23fff2dc'/%3E%3Crect y='150' width='320' height='70' fill='%23e8c9a3'/%3E%3Cellipse cx='196' cy='160' rx='66' ry='42' fill='%23ffb166'/%3E%3Ccircle cx='238' cy='128' r='30' fill='%23ffb166'/%3E%3Cpath d='M220 106l8-18 10 16z' fill='%23ff9c4a'/%3E%3Cpath d='M254 104l10-16 6 18z' fill='%23ff9c4a'/%3E%3Ccircle cx='230' cy='126' r='3' fill='%23342a1f'/%3E%3Ccircle cx='250' cy='126' r='3' fill='%23342a1f'/%3E%3Ccircle cx='150' cy='186' r='22' fill='%23ff6fa5' opacity='.85'/%3E%3Cpath d='M150 164q26 22 54 4' stroke='%23e0528c' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+              <span class="lc-play-badge" aria-hidden="true"></span>
+            </div>
+            <div class="lc-fi-body">
+              <h3>和一只猫生活了三年，我拍下它的两百个下午</h3>
+              <p>日常记录系列的温柔样本，关于陪伴与时间的影像。</p>
+              <div class="lc-fi-foot"><span>半日闲</span><span>09:18</span><span>5.6 万</span></div>
+            </div>
+          </article>
+          <article class="lc-focus-item">
+            <div class="lc-thumb">
+              <img alt="行业观察封面：剪辑室里的多屏时间线与调色面板" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 220'%3E%3Crect width='320' height='220' fill='%231b1730'/%3E%3Crect x='24' y='30' width='180' height='106' rx='8' fill='%232b2450'/%3E%3Crect x='36' y='42' width='76' height='52' rx='4' fill='%237c5cff'/%3E%3Crect x='120' y='42' width='72' height='52' rx='4' fill='%2338d6b0'/%3E%3Crect x='36' y='104' width='156' height='8' rx='4' fill='%234a3f7c'/%3E%3Crect x='36' y='120' width='100' height='6' rx='3' fill='%23ff6fa5'/%3E%3Crect x='220' y='30' width='76' height='106' rx='8' fill='%232b2450'/%3E%3Cg fill='%23ffb547'%3E%3Crect x='230' y='42' width='56' height='8' rx='4'/%3E%3Crect x='230' y='58' width='40' height='8' rx='4'/%3E%3C/g%3E%3Crect x='24' y='152' width='272' height='42' rx='8' fill='%23241d3d'/%3E%3Cg fill='%237c5cff' opacity='.8'%3E%3Crect x='36' y='164' width='60' height='18' rx='4'/%3E%3Crect x='104' y='164' width='90' height='18' rx='4'/%3E%3C/g%3E%3C/svg%3E">
+              <span class="lc-play-badge" aria-hidden="true"></span>
+            </div>
+            <div class="lc-fi-body">
+              <h3>一个人做视频的第五年：我的设备清单与工作流</h3>
+              <p>独立创作者的经验分享，从拍摄到交付的完整链路。</p>
+              <div class="lc-fi-foot"><span>阿澈说影像</span><span>16:20</span><span>7.1 万</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 热门视频流 -->
+  <section class="lc-section lc-section-alt" id="lc-videos">
+    <div class="lc-container">
+      <div class="lc-section-head">
+        <div>
+          <span class="lc-eyebrow">精品内容</span>
+          <h2>蕾丝猫社区热门视频流</h2>
+        </div>
+        <p>按方向筛选你感兴趣的内容，点赞与收藏会即时记录在本页。</p>
+      </div>
+      <div class="lc-filter-row" id="lcFilterRow">
+        <button class="lc-filter is-active" data-lc-filter="all">全部</button>
+        <button class="lc-filter" data-lc-filter="生活">生活记录</button>
+        <button class="lc-filter" data-lc-filter="教程">教程干货</button>
+        <button class="lc-filter" data-lc-filter="访谈">人物访谈</button>
+        <button class="lc-filter" data-lc-filter="城市">城市探索</button>
+        <button class="lc-filter" data-lc-filter="品牌">品牌故事</button>
+      </div>
+      <div class="lc-video-grid" id="lcVideoGrid">
+
+        <article class="lc-video-card" data-lc-cat="生活">
+          <div class="lc-video-thumb">
+            <img alt="视频封面：阳台上晾晒的白色床单与午后光影" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='w1' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23dff0ff'/%3E%3Cstop offset='1' stop-color='%23b9d8f0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23w1)'/%3E%3Ccircle cx='390' cy='56' r='40' fill='%23fff6d6'/%3E%3Cpath d='M0 200h480v70H0z' fill='%23e6d3bd'/%3E%3Cpath d='M60 60q100 30 200 0t160 6v88q-90-24-170 4T60 148z' fill='%23ffffff' opacity='.92'/%3E%3Cpath d='M60 60q100 30 200 0t160 6' stroke='%23b9c9d6' stroke-width='2' fill='none'/%3E%3Crect x='52' y='40' width='8' height='150' rx='4' fill='%239aa9b6'/%3E%3Crect x='418' y='40' width='8' height='150' rx='4' fill='%239aa9b6'/%3E%3C/svg%3E">
+            <span class="lc-thumb-tag">生活记录</span>
+            <span class="lc-thumb-time">07:24</span>
+          </div>
+          <div class="lc-video-body">
+            <h3>把家收拾干净的第七天，我重新开始写日记</h3>
+            <p class="lc-video-desc">从玄关到书桌，一次彻底的家居收纳与心情整理记录。</p>
+            <div class="lc-video-author"><span class="lc-avatar" style="background:linear-gradient(135deg,#7c5cff,#ff6fa5)">木</span>木子日常</div>
+            <div class="lc-video-stats"><span>播放 8.4 万</span><span>点赞 3265</span></div>
+            <div class="lc-video-acts">
+              <button class="lc-act" data-lc-like>♡ 点赞</button>
+              <button class="lc-act" data-lc-save>☆ 收藏</button>
+              <button class="lc-act" data-lc-share>分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="lc-video-card" data-lc-cat="教程">
+          <div class="lc-video-thumb">
+            <img alt="视频封面：相机与三脚架在窗边组成的小型拍摄台" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%231e1a33'/%3E%3Crect x='0' y='200' width='480' height='70' fill='%232b2450'/%3E%3Crect x='150' y='86' width='110' height='76' rx='10' fill='%233a3266'/%3E%3Ccircle cx='205' cy='124' r='26' fill='%237c5cff'/%3E%3Ccircle cx='205' cy='124' r='12' fill='%231e1a33'/%3E%3Crect x='196' y='162' width='18' height='16' fill='%23574f8a'/%3E%3Cpath d='M205 178l-44 60M205 178l44 60M205 178v60' stroke='%23574f8a' stroke-width='8' stroke-linecap='round'/%3E%3Ccircle cx='350' cy='90' r='46' fill='%23ffb547' opacity='.35'/%3E%3Ccircle cx='350' cy='90' r='22' fill='%23ffd9a8'/%3E%3Cg fill='%2338d6b0' opacity='.85'%3E%3Crect x='300' y='180' width='14' height='40' rx='4'/%3E%3Crect x='322' y='164' width='14' height='56' rx='4'/%3E%3Crect x='344' y='192' width='14' height='28' rx='4'/%3E%3C/g%3E%3C/svg%3E">
+            <span class="lc-thumb-tag">教程干货</span>
+            <span class="lc-thumb-time">14:52</span>
+          </div>
+          <div class="lc-video-body">
+            <h3>只用一盏灯，拍出有质感的室内人像</h3>
+            <p class="lc-video-desc">灯位、反光板与色温三件事，新手也能复用的布光思路。</p>
+            <div class="lc-video-author"><span class="lc-avatar" style="background:linear-gradient(135deg,#38d6b0,#5a3ee0)">澈</span>阿澈说影像</div>
+            <div class="lc-video-stats"><span>播放 12.1 万</span><span>点赞 5412</span></div>
+            <div class="lc-video-acts">
+              <button class="lc-act" data-lc-like>♡ 点赞</button>
+              <button class="lc-act" data-lc-save>☆ 收藏</button>
+              <button class="lc-act" data-lc-share>分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="lc-video-card" data-lc-cat="访谈">
+          <div class="lc-video-thumb">
+            <img alt="视频封面：两位创作者在长桌前对谈的访谈现场" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23f6f1e7'/%3E%3Crect y='196' width='480' height='74' fill='%23e2d5c0'/%3E%3Ccircle cx='140' cy='96' r='38' fill='%23ffc9a0'/%3E%3Cpath d='M92 196c0-30 22-52 48-52s48 22 48 52z' fill='%235a3ee0'/%3E%3Ccircle cx='330' cy='100' r='36' fill='%23d9b8a0'/%3E%3Cpath d='M284 196c0-28 20-50 46-50s46 22 46 50z' fill='%23ff6fa5'/%3E%3Crect x='196' y='150' width='88' height='10' rx='5' fill='%23bfa98d'/%3E%3Crect x='206' y='160' width='8' height='40' fill='%23bfa98d'/%3E%3Crect x='266' y='160' width='8' height='40' fill='%23bfa98d'/%3E%3Ccircle cx='240' cy='140' r='9' fill='%2338d6b0'/%3E%3C/svg%3E">
+            <span class="lc-thumb-tag">人物访谈</span>
+            <span class="lc-thumb-time">23:08</span>
+          </div>
+          <div class="lc-video-body">
+            <h3>聊了三个小时，她说创作最难的是承认自己普通</h3>
+            <p class="lc-video-desc">蕾丝猫年度访谈系列，与一位拍了八年日常的创作者对谈。</p>
+            <div class="lc-video-author"><span class="lc-avatar" style="background:linear-gradient(135deg,#ffb547,#ff6fa5)">蕾</span>蕾丝猫编辑部</div>
+            <div class="lc-video-stats"><span>播放 6.7 万</span><span>点赞 2890</span></div>
+            <div class="lc-video-acts">
+              <button class="lc-act" data-lc-like>♡ 点赞</button>
+              <button class="lc-act" data-lc-save>☆ 收藏</button>
+              <button class="lc-act" data-lc-share>分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="lc-video-card" data-lc-cat="城市">
+          <div class="lc-video-thumb">
+            <img alt="视频封面：雨夜街头的霓虹招牌与撑伞行人" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='c1' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%231d1a3a'/%3E%3Cstop offset='1' stop-color='%233c2a5e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23c1)'/%3E%3Cg%3E%3Crect x='30' y='60' width='60' height='110' rx='6' fill='%23ff6fa5' opacity='.85'/%3E%3Crect x='110' y='90' width='44' height='80' rx='6' fill='%2338d6b0' opacity='.8'/%3E%3Crect x='330' y='70' width='56' height='100' rx='6' fill='%23ffb547' opacity='.85'/%3E%3Crect x='400' y='100' width='42' height='70' rx='6' fill='%237c5cff' opacity='.9'/%3E%3C/g%3E%3Crect y='180' width='480' height='90' fill='%23140f28'/%3E%3Cg stroke='%23a99bd6' stroke-width='2' opacity='.6'%3E%3Cpath d='M40 190l-16 66M120 196l-10 60M240 188l6 68M380 192l14 62'/%3E%3C/g%3E%3Ccircle cx='240' cy='140' r='26' fill='%23ffd9a8' opacity='.7'/%3E%3Cpath d='M214 140a26 26 0 0 1 52 0z' fill='%23ff9ec3'/%3E%3Crect x='237' y='140' width='5' height='42' fill='%23ff9ec3'/%3E%3C/svg%3E">
+            <span class="lc-thumb-tag">城市探索</span>
+            <span class="lc-thumb-time">10:36</span>
+          </div>
+          <div class="lc-video-body">
+            <h3>雨夜十点的街头，我记录下三种不同的回家方式</h3>
+            <p class="lc-video-desc">骑着电动车的外卖员、散步的老人、加完班的年轻人。</p>
+            <div class="lc-video-author"><span class="lc-avatar" style="background:linear-gradient(135deg,#5a3ee0,#38d6b0)">城</span>城市观察局</div>
+            <div class="lc-video-stats"><span>播放 9.3 万</span><span>点赞 4120</span></div>
+            <div class="lc-video-acts">
+              <button class="lc-act" data-lc-like>♡ 点赞</button>
+              <button class="lc-act" data-lc-save>☆ 收藏</button>
+              <button class="lc-act" data-lc-share>分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="lc-video-card" data-lc-cat="教程">
+          <div class="lc-video-thumb">
+            <img alt="视频封面：厨房台面上的食材与一只正在打蛋的玻璃碗" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23fff6e6'/%3E%3Crect y='170' width='480' height='100' fill='%23e0c9a6'/%3E%3Ccircle cx='150' cy='150' r='44' fill='%23ffffff' stroke='%23d9c7ae' stroke-width='4'/%3E%3Ccircle cx='150' cy='150' r='20' fill='%23ffc84d'/%3E%3Crect x='230' y='110' width='76' height='60' rx='8' fill='%23ff8f6b'/%3E%3Ccircle cx='350' cy='140' r='34' fill='%237ac96f'/%3E%3Crect x='300' y='176' width='120' height='10' rx='5' fill='%23b99b73'/%3E%3Cg fill='%23ffb547'%3E%3Ccircle cx='60' cy='60' r='6'/%3E%3Ccircle cx='410' cy='50' r='5'/%3E%3C/g%3E%3C/svg%3E">
+            <span class="lc-thumb-tag">教程干货</span>
+            <span class="lc-thumb-time">08:47</span>
+          </div>
+          <div class="lc-video-body">
+            <h3>十五分钟早餐计划：三款不用开火的组合</h3>
+            <p class="lc-video-desc">适合工作日早晨的轻食搭配，附采购清单。</p>
+            <div class="lc-video-author"><span class="lc-avatar" style="background:linear-gradient(135deg,#ffb547,#ff6fa5)">厨</span>厨房小满</div>
+            <div class="lc-video-stats"><span>播放 15.6 万</span><span>点赞 6830</span></div>
+            <div class="lc-video-acts">
+              <button class="lc-act" data-lc-like>♡ 点赞</button>
+              <button class="lc-act" data-lc-save>☆ 收藏</button>
+              <button class="lc-act" data-lc-share>分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="lc-video-card" data-lc-cat="品牌">
+          <div class="lc-video-thumb">
+            <img alt="视频封面：蕾丝猫工作室的剪辑工位与品牌灯牌" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23221c3d'/%3E%3Crect x='40' y='60' width='240' height='140' rx='10' fill='%232f2757'/%3E%3Crect x='60' y='80' width='200' height='100' rx='6' fill='%233d3470'/%3E%3Crect x='76' y='96' width='70' height='44' rx='4' fill='%237c5cff'/%3E%3Crect x='156' y='96' width='88' height='44' rx='4' fill='%23ff6fa5'/%3E%3Crect x='76' y='152' width='168' height='8' rx='4' fill='%2356498c'/%3E%3Crect x='320' y='50' width='120' height='70' rx='12' fill='%23ffd9a8'/%3E%3Ctext x='380' y='96' font-size='26' text-anchor='middle' font-family='sans-serif' fill='%235a3ee0' font-weight='bold'%3ELACE%3C/text%3E%3Crect x='320' y='150' width='120' height='10' rx='5' fill='%233f3670'/%3E%3Crect x='320' y='172' width='84' height='10' rx='5' fill='%233f3670'/%3E%3Ccircle cx='380' cy='220' r='18' fill='%2338d6b0' opacity='.85'/%3E%3C/svg%3E">
+            <span class="lc-thumb-tag">品牌故事</span>
+            <span class="lc-thumb-time">05:12</span>
+          </div>
+          <div class="lc-video-body">
+            <h3>蕾丝猫的两百天：一个小团队如何做原创影像</h3>
+            <p class="lc-video-desc">从选题会到成片交付，品牌故事系列官方纪录短片。</p>
+            <div class="lc-video-author"><span class="lc-avatar" style="background:linear-gradient(135deg,#7c5cff,#38d6b0)">编</span>蕾丝猫官方</div>
+            <div class="lc-video-stats"><span>播放 4.8 万</span><span>点赞 2150</span></div>
+            <div class="lc-video-acts">
+              <button class="lc-act" data-lc-like>♡ 点赞</button>
+              <button class="lc-act" data-lc-save>☆ 收藏</button>
+              <button class="lc-act" data-lc-share>分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="lc-video-card" data-lc-cat="生活">
+          <div class="lc-video-thumb">
+            <img alt="视频封面：书桌上的台灯、翻开的书与一杯热茶" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23efe8dc'/%3E%3Crect y='190' width='480' height='80' fill='%23cdb99a'/%3E%3Cpath d='M200 40h80l40 90H160z' fill='%23ffd9a8'/%3E%3Crect x='236' y='130' width='8' height='50' fill='%23967f60'/%3E%3Crect x='208' y='180' width='64' height='10' rx='5' fill='%23967f60'/%3E%3Cpath d='M120 170l60-30 60 30v20H120z' fill='%23fff'/%3E%3Cpath d='M180 140v50' stroke='%23c9bda8' stroke-width='3'/%3E%3Crect x='320' y='150' width='46' height='40' rx='6' fill='%23ffffff'/%3E%3Cpath d='M366 160q18 4 0 20' stroke='%23d9cbb6' stroke-width='4' fill='none'/%3E%3C/svg%3E">
+            <span class="lc-thumb-tag">生活记录</span>
+            <span class="lc-thumb-time">11:03</span>
+          </div>
+          <div class="lc-video-body">
+            <h3>关掉手机的一整个周末，我读完了半本书</h3>
+            <p class="lc-video-desc">一次数字断舍离实验的真实记录与感受复盘。</p>
+            <div class="lc-video-author"><span class="lc-avatar" style="background:linear-gradient(135deg,#5a3ee0,#ff6fa5)">日</span>半日闲</div>
+            <div class="lc-video-stats"><span>播放 7.5 万</span><span>点赞 3410</span></div>
+            <div class="lc-video-acts">
+              <button class="lc-act" data-lc-like>♡ 点赞</button>
+              <button class="lc-act" data-lc-save>☆ 收藏</button>
+              <button class="lc-act" data-lc-share>分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="lc-video-card" data-lc-cat="城市">
+          <div class="lc-video-thumb">
+            <img alt="视频封面：海边码头的木质栈道与远处的渔船" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='s1' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23cfe7f5'/%3E%3Cstop offset='1' stop-color='%2383b8d8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23s1)'/%3E%3Ccircle cx='380' cy='60' r='34' fill='%23fff2c9'/%3E%3Crect y='150' width='480' height='120' fill='%235f92b3'/%3E%3Cpath d='M0 160q60-16 120 0t120 0 120 0 120 0v30H0z' fill='%234f80a2' opacity='.7'/%3E%3Cpath d='M60 190h360v14H60z' fill='%239c7b5a'/%3E%3Cg fill='%239c7b5a'%3E%3Crect x='96' y='204' width='12' height='40'/%3E%3Crect x='216' y='204' width='12' height='40'/%3E%3Crect x='336' y='204' width='12' height='40'/%3E%3C/g%3E%3Cpath d='M260 130h60l-10 18h-40z' fill='%23ffffff'/%3E%3Crect x='282' y='96' width='6' height='36' fill='%236a5642'/%3E%3C/svg%3E">
+            <span class="lc-thumb-tag">城市探索</span>
+            <span class="lc-thumb-time">13:25</span>
+          </div>
+          <div class="lc-video-body">
+            <h3>沿着海岸线走了十二公里，遇见了三个打渔的人</h3>
+            <p class="lc-video-desc">一次没有计划的行走，关于海边小城的日常。</p>
+            <div class="lc-video-author"><span class="lc-avatar" style="background:linear-gradient(135deg,#38d6b0,#5a3ee0)">行</span>行走的相机</div>
+            <div class="lc-video-stats"><span>播放 5.2 万</span><span>点赞 1980</span></div>
+            <div class="lc-video-acts">
+              <button class="lc-act" data-lc-like>♡ 点赞</button>
+              <button class="lc-act" data-lc-save>☆ 收藏</button>
+              <button class="lc-act" data-lc-share>分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="lc-video-card" data-lc-cat="访谈">
+          <div class="lc-video-thumb">
+            <img alt="视频封面：录音棚内的麦克风与耳机挂在支架上" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%231a162e'/%3E%3Crect x='0' y='200' width='480' height='70' fill='%2326203f'/%3E%3Crect x='220' y='40' width='10' height='150' fill='%234c4278'/%3E%3Crect x='190' y='186' width='70' height='10' rx='5' fill='%234c4278'/%3E%3Crect x='196' y='70' width='58' height='90' rx='28' fill='%237c5cff'/%3E%3Cg stroke='%23a99bd6' stroke-width='2' opacity='.7'%3E%3Cpath d='M206 84h38M206 96h38M206 108h38M206 120h38M206 132h38'/%3E%3C/g%3E%3Ccircle cx='380' cy='90' r='40' fill='%23ff6fa5' opacity='.35'/%3E%3Ccircle cx='380' cy='90' r='18' fill='%23ffb547'/%3E%3Cpath d='M100 120q30-24 60 0v30h-60z' fill='%2338d6b0' opacity='.65'/%3E%3C/svg%3E">
+            <span class="lc-thumb-tag">人物访谈</span>
+            <span class="lc-thumb-time">19:40</span>
+          </div>
+          <div class="lc-video-body">
+            <h3>给声音做一件衣服：一位录音师的十年现场手记</h3>
+            <p class="lc-video-desc">从街头采风到棚内混音，聊聊声音如何塑造真实感。</p>
+            <div class="lc-video-author"><span class="lc-avatar" style="background:linear-gradient(135deg,#7c5cff,#ffb547)">声</span>声音与现场</div>
+            <div class="lc-video-stats"><span>播放 3.6 万</span><span>点赞 1420</span></div>
+            <div class="lc-video-acts">
+              <button class="lc-act" data-lc-like>♡ 点赞</button>
+              <button class="lc-act" data-lc-save>☆ 收藏</button>
+              <button class="lc-act" data-lc-share>分享</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题企划 -->
+  <section class="lc-section" id="lc-topics">
+    <div class="lc-container">
+      <div class="lc-section-head">
+        <div>
+          <span class="lc-eyebrow">专题企划</span>
+          <h2>官方策划的内容专题</h2>
+        </div>
+        <p>每个专题围绕一个具体命题展开，由多个创作者共同完成，持续更新中。</p>
+      </div>
+      <div class="lc-topic-grid">
+        <article class="lc-topic">
+          <img alt="专题封面：城市街角亮起的暖色路灯与夜归身影" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 300'%3E%3Cdefs%3E%3ClinearGradient id='t1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232b2148'/%3E%3Cstop offset='1' stop-color='%236f4b8c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='500' height='300' fill='url(%23t1)'/%3E%3Crect y='210' width='500' height='90' fill='%231a1430'/%3E%3Crect x='70' y='80' width='10' height='140' rx='5' fill='%23e3c9a0'/%3E%3Ccircle cx='75' cy='80' r='24' fill='%23ffd9a8'/%3E%3Ccircle cx='75' cy='80' r='48' fill='%23ffd9a8' opacity='.18'/%3E%3Crect x='380' y='90' width='10' height='130' rx='5' fill='%23e3c9a0'/%3E%3Ccircle cx='385' cy='90' r='20' fill='%23ffd9a8'/%3E%3Ccircle cx='385' cy='90' r='42' fill='%23ffd9a8' opacity='.16'/%3E%3Ccircle cx='230' cy='180' r='20' fill='%23ff9ec3'/%3E%3Crect x='212' y='200' width='36' height='60' rx='12' fill='%2338d6b0'/%3E%3C/svg%3E">
+          <span class="lc-topic-status">已上线 · 更新至第 6 集</span>
+          <h3>城市的另一面</h3>
+          <p>把镜头对准清晨与深夜，记录那些被忽略的城市角落。</p>
+          <div class="lc-topic-foot"><span>城市探索</span><span>6 位创作者</span></div>
+        </article>
+        <article class="lc-topic">
+          <img alt="专题封面：手作工坊里堆叠的布料与缝纫机" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 300'%3E%3Crect width='500' height='300' fill='%23f3e6d8'/%3E%3Crect y='220' width='500' height='80' fill='%23d2b295'/%3E%3Crect x='70' y='120' width='140' height='70' rx='10' fill='%23c0c9d1'/%3E%3Crect x='90' y='100' width='60' height='22' rx='8' fill='%23a6b3c0'/%3E%3Ccircle cx='230' cy='150' r='26' fill='%238a9aa8'/%3E%3Crect x='300' y='60' width='110' height='90' rx='8' fill='%23ffb547' opacity='.7'/%3E%3Crect x='320' y='150' width='70' height='70' rx='8' fill='%23ff6fa5' opacity='.7'/%3E%3Ccircle cx='400' cy='210' r='30' fill='%237c5cff' opacity='.55'/%3E%3C/svg%3E">
+          <span class="lc-topic-status">已上线 · 更新至第 4 集</span>
+          <h3>手上有一门手艺</h3>
+          <p>拜访六位手作人，聊聊他们如何把兴趣做成长期的事。</p>
+          <div class="lc-topic-foot"><span>手作与匠心</span><span>4 位创作者</span></div>
+        </article>
+        <article class="lc-topic">
+          <img alt="专题封面：麦田边的木质长桌与远景山脊线" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 300'%3E%3Cdefs%3E%3ClinearGradient id='t3' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23d7ecff'/%3E%3Cstop offset='1' stop-color='%23a9d3b8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='500' height='300' fill='url(%23t3)'/%3E%3Cpath d='M0 190q90-60 180 0t160-20 160 20v110H0z' fill='%237bbd8f'/%3E%3Cpath d='M0 240q120-40 240 0t260 0v60H0z' fill='%23549a6c'/%3E%3Ccircle cx='400' cy='70' r='34' fill='%23fff3c4'/%3E%3Crect x='150' y='180' width='120' height='12' rx='6' fill='%239a6f4b'/%3E%3Crect x='162' y='192' width='10' height='40' fill='%239a6f4b'/%3E%3Crect x='248' y='192' width='10' height='40' fill='%239a6f4b'/%3E%3C/svg%3E">
+          <span class="lc-topic-status">报名中 · 12 月开机</span>
+          <h3>回到乡野的年轻人</h3>
+          <p>记录离开城市、在乡镇重新开始生活的一群人。</p>
+          <div class="lc-topic-foot"><span>生活方式</span><span>招募中</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者 -->
+  <section class="lc-section lc-section-alt" id="lc-creators">
+    <div class="lc-container">
+      <div class="lc-section-head">
+        <div>
+          <span class="lc-eyebrow">创作者矩阵</span>
+          <h2>与蕾丝猫同行的创作者</h2>
+        </div>
+        <p>点击卡片可查看创作者简介，欢迎在评论区留下你的想法。</p>
+      </div>
+      <div class="lc-creator-grid">
+        <article class="lc-creator">
+          <div class="lc-creator-avatar" style="background:linear-gradient(135deg,#7c5cff,#ff6fa5)">木</div>
+          <h3>木子日常</h3>
+          <div class="lc-creator-role">家居收纳 · 生活记录</div>
+          <p>把家里的每一平方米都过成喜欢的样子，记录收拾与重整的过程。</p>
+          <div class="lc-creator-foot"><div><b>126</b><span>作品</span></div><div><b>18.4万</b><span>粉丝</span></div></div>
+          <button class="lc-creator-btn" data-lc-creator="木子日常|擅长家居收纳与生活记录，代表作《把家收拾干净的第七天》。">查看简介</button>
+        </article>
+        <article class="lc-creator">
+          <div class="lc-creator-avatar" style="background:linear-gradient(135deg,#38d6b0,#5a3ee0)">澈</div>
+          <h3>阿澈说影像</h3>
+          <div class="lc-creator-role">教程干货 · 器材测评</div>
+          <p>独立影像创作者，五年拍片经验，专注把复杂方法讲简单。</p>
+          <div class="lc-creator-foot"><div><b>98</b><span>作品</span></div><div><b>22.7万</b><span>粉丝</span></div></div>
+          <button class="lc-creator-btn" data-lc-creator="阿澈说影像|独立影像创作者，主讲布光与剪辑工作流，坚持所有教程原创。">查看简介</button>
+        </article>
+        <article class="lc-creator">
+          <div class="lc-creator-avatar" style="background:linear-gradient(135deg,#ffb547,#ff6fa5)">城</div>
+          <h3>城市观察局</h3>
+          <div class="lc-creator-role">城市探索 · 纪实</div>
+          <p>用镜头记录城市的清晨与深夜，关注普通人的日常动线。</p>
+          <div class="lc-creator-foot"><div><b>74</b><span>作品</span></div><div><b>15.2万</b><span>粉丝</span></div></div>
+          <button class="lc-creator-btn" data-lc-creator="城市观察局|专注城市纪实方向，长期跟踪记录街区与人的关系。">查看简介</button>
+        </article>
+        <article class="lc-creator">
+          <div class="lc-creator-avatar" style="background:linear-gradient(135deg,#5a3ee0,#38d6b0)">半</div>
+          <h3>半日闲</h3>
+          <div class="lc-creator-role">治愈影像 · 日常随笔</div>
+          <p>喜欢慢一点的节奏，拍摄猫、窗台、茶和一切安静的东西。</p>
+          <div class="lc-creator-foot"><div><b>152</b><span>作品</span></div><div><b>27.9万</b><span>粉丝</span></div></div>
+          <button class="lc-creator-btn" data-lc-creator="半日闲|治愈向影像创作者，作品节奏舒缓，擅长自然光与生活细节。">查看简介</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 随笔 -->
+  <section class="lc-section" id="lc-stories">
+    <div class="lc-container">
+      <div class="lc-section-head">
+        <div>
+          <span class="lc-eyebrow">影像随笔</span>
+          <h2>镜头之外的几段文字</h2>
+        </div>
+        <p>由创作者与编辑部撰写的短文，记录拍摄过程中没有进入成片的细节。</p>
+      </div>
+      <div class="lc-story-grid">
+        <article class="lc-story">
+          <span class="lc-story-tag">拍摄手记</span>
+          <h3>为了三分钟的成片，我们在面馆蹲了四个凌晨</h3>
+          <p>第一次去踩点的时候，老陈并不愿意被拍。后来我们连着去了三天，只点面、不拿机器，第四天他才问了一句：你们到底想拍什么。那天拍完之后，他给我们每人加了一个蛋。</p>
+          <div class="lc-story-foot"><span>蕾丝猫纪录片组</span><span>2026-11-12</span></div>
+        </article>
+        <article class="lc-story">
+          <span class="lc-story-tag">创作者说</span>
+          <h3>我拍了两百个下午，才剪出九分钟</h3>
+          <p>素材盘里大部分片段都舍不得删，但成片只能留下最安静的几段。剪辑最难的不是技术，是承认哪些画面虽然好看，却不属于这个故事。这次我第一次做到了。</p>
+          <div class="lc-story-foot"><span>半日闲</span><span>2026-11-06</span></div>
+        </article>
+        <article class="lc-story">
+          <span class="lc-story-tag">编辑手记</span>
+          <h3>关于“真实”这个词，我们讨论了很久</h3>
+          <p>选题会上有人提出，真实不是不加修饰，而是不欺骗观众。我们最后把它写进了内容准则：不虚构情节，不夸大情绪，不为了流量牺牲叙事的完整性。</p>
+          <div class="lc-story-foot"><span>蕾丝猫编辑部</span><span>2026-10-28</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 用户评价 -->
+  <section class="lc-section lc-section-alt" id="lc-reviews">
+    <div class="lc-container">
+      <div class="lc-section-head">
+        <div>
+          <span class="lc-eyebrow">用户口碑</span>
+          <h2>来自社区的真实反馈</h2>
+        </div>
+        <p>以下评价来自蕾丝猫社区用户，内容经本人授权展示。</p>
+      </div>
+      <div class="lc-review-grid">
+        <div class="lc-review">
+          <div class="lc-review-head"><span class="lc-avatar" style="background:linear-gradient(135deg,#7c5cff,#ff6fa5);border-radius:10px">林</span><div><div class="lc-review-name">林间散步</div><div class="lc-review-date">2026-11-14</div></div></div>
+          <div class="lc-stars">★★★★★</div>
+          <p>很少见到这么安静的影像社区，首页没有乱七八糟的推荐，点进去就是完整的故事。面馆那支片子看到结尾有点想哭。</p>
+        </div>
+        <div class="lc-review">
+          <div class="lc-review-head"><span class="lc-avatar" style="background:linear-gradient(135deg,#38d6b0,#5a3ee0);border-radius:10px">陈</span><div><div class="lc-review-name">陈小满</div><div class="lc-review-date">2026-11-11</div></div></div>
+          <div class="lc-stars">★★★★★</div>
+          <p>作为刚入门的创作者，最实用的是那些教程。布光那期我反复看了三遍，照着做第一次就成功了，感谢分享。</p>
+        </div>
+        <div class="lc-review">
+          <div class="lc-review-head"><span class="lc-avatar" style="background:linear-gradient(135deg,#ffb547,#ff6fa5);border-radius:10px">三</span><div><div class="lc-review-name">三十七度</div><div class="lc-review-date">2026-11-08</div></div></div>
+          <div class="lc-stars">★★★★☆</div>
+          <p>内容质量整体很稳定，希望专题更新再快一点。另外希望能有按主题收藏片单的功能，方便一次看完一个系列。</p>
+        </div>
+        <div class="lc-review">
+          <div class="lc-review-head"><span class="lc-avatar" style="background:linear-gradient(135deg,#5a3ee0,#38d6b0);border-radius:10px">阿</span><div><div class="lc-review-name">阿唐不加班</div><div class="lc-review-date">2026-11-03</div></div></div>
+          <div class="lc-stars">★★★★★</div>
+          <p>投稿流程比想象中顺畅，提交之后三天就收到了编辑的回复，还给了很具体的修改建议，这一点真的很少见。</p>
+        </div>
+        <div class="lc-review">
+          <div class="lc-review-head"><span class="lc-avatar" style="background:linear-gradient(135deg,#ff6fa5,#7c5cff);border-radius:10px">木</span><div><div class="lc-review-name">木木夕</div><div class="lc-review-date">2026-10-30</div></div></div>
+          <div class="lc-stars">★★★★★</div>
+          <p>从城市探索系列一路看过来，能感觉到这个品牌是真的在认真做内容，不是那种批量生产的号。</p>
+        </div>
+        <div class="lc-review">
+          <div class="lc-review-head"><span class="lc-avatar" style="background:linear-gradient(135deg,#38d6b0,#ffb547);border-radius:10px">六</span><div><div class="lc-review-name">六边形战士</div><div class="lc-review-date">2026-10-26</div></div></div>
+          <div class="lc-stars">★★★★☆</div>
+          <p>画面质感很舒服，音效处理也讲究。唯一的小建议是部分长片希望有章节标记，通勤时看能跳着看重点。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 企业动态 -->
+  <section class="lc-section" id="lc-updates">
+    <div class="lc-container">
+      <div class="lc-section-head">
+        <div>
+          <span class="lc-eyebrow">企业动态</span>
+          <h2>蕾丝猫官方更新记录</h2>
+        </div>
+        <p>品牌动态、专题上线与社区规则调整，都在这里统一发布。</p>
+      </div>
+      <div class="lc-log-list">
+        <div class="lc-log">
+          <time datetime="2026-11-18">2026-11-18</time>
+          <div><h3>冬日影像企划第二季开放报名，新增四个专题片单</h3><p>本季企划面向全体社区创作者开放，投稿入口已同步上线，报名截止至 12 月 10 日。</p></div>
+          <span class="lc-log-tag">官方发布</span>
+        </div>
+        <div class="lc-log">
+          <time datetime="2026-11-09">2026-11-09</time>
+          <div><h3>「城市的另一面」专题更新第六集，新增夜间街景单元</h3><p>由城市观察局主导拍摄，本集聚焦深夜仍在工作的人群。</p></div>
+          <span class="lc-log-tag">专题更新</span>
+        </div>
+        <div class="lc-log">
+          <time datetime="2026-10-27">2026-10-27</time>
+          <div><h3>内容审核标准 3.1 版发布，进一步明确原创声明要求</h3><p>新版标准对二次剪辑与素材引用作出更清晰的界定，已在帮助中心同步更新。</p></div>
+          <span class="lc-log-tag">规则调整</span>
+        </div>
+        <div class="lc-log">
+          <time datetime="2026-10-15">2026-10-15</time>
+          <div><h3>蕾丝猫首场线下放映会结束，六十位社区用户到场</h3><p>本次放映了四支年度精选短片，映后与创作者进行了现场交流。</p></div>
+          <span class="lc-log-tag">品牌活动</span>
+        </div>
+        <div class="lc-log">
+          <time datetime="2026-09-30">2026-09-30</time>
+          <div><h3>创作者扶持计划签约人数突破 140 位</h3><p>新签约创作者将获得季度选题支持与拍摄资源对接服务。</p></div>
+          <span class="lc-log-tag">品牌动态</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="lc-section lc-section-alt" id="lc-faq">
+    <div class="lc-container">
+      <div class="lc-section-head" style="justify-content:center;text-align:center;flex-direction:column;align-items:center;">
+        <span class="lc-eyebrow">帮助中心</span>
+        <h2>关于蕾丝猫的常见问题</h2>
+        <p>如果没有找到答案，可以通过页面底部的联系方式与我们取得联系。</p>
+      </div>
+      <div class="lc-faq">
+        <details>
+          <summary>蕾丝猫是怎样的一个视频品牌？</summary>
+          <p>蕾丝猫是一个以原创影像为核心的视频品牌平台，官方网站集中展示品牌故事、专题企划、创作者矩阵与企业动态。我们坚持专业制作与持续运营，所有内容均经过选题与审校流程。</p>
+        </details>
+        <details>
+          <summary>如何投稿成为蕾丝猫的创作者？</summary>
+          <p>页面右上角与底部均有投稿入口，提交作品链接与简短介绍即可。编辑部通常在三个工作日内回复，通过后会有专属编辑对接后续的选题与拍摄安排。</p>
+        </details>
+        <details>
+          <summary>站内内容是否都可以直接使用？</summary>
+          <p>站内作品版权归创作者与蕾丝猫共同所有。如需转载或二次使用，请通过联系邮箱提交申请，我们会协助你与创作者沟通授权事宜。</p>
+        </details>
+        <details>
+          <summary>专题企划多久更新一次？</summary>
+          <p>专题通常按季度规划，单个系列保持每周或双周更新。具体进度会在企业动态中同步公告，也可以在专题卡片上看到当前更新状态。</p>
+        </details>
+        <details>
+          <summary>为什么有些作品的时长比较长？</summary>
+          <p>蕾丝猫鼓励完整的叙事表达，部分访谈与纪实作品时长在十五分钟以上。我们会在简介中标注时长，方便你安排观看时间。</p>
+        </details>
+        <details>
+          <summary>平台对内容画质有什么要求？</summary>
+          <p>投稿作品建议提供 1080P 及以上清晰度的成片，声音需做到无明显底噪。若素材质量不足，编辑会提供后期与拍摄方面的改进建议。</p>
+        </details>
+        <details>
+          <summary>我可以申请参与线下放映活动吗？</summary>
+          <p>可以。线下活动会提前在公告条与企业动态中开放报名，社区活跃用户与签约创作者可优先获得名额，活动规模通常控制在百人以内。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系 -->
+  <section class="lc-section" id="lc-contact">
+    <div class="lc-container">
+      <div class="lc-contact-panel">
+        <div>
+          <span class="lc-eyebrow" style="color:#ffd9a8">联系我们</span>
+          <h2 style="margin-top:10px;">与蕾丝猫一起，把好故事拍完</h2>
+          <p>无论是投稿、合作还是反馈，我们都愿意认真听。蕾丝猫官方网站长期开放商务合作与内容共创通道，期待与你建立长期、值得信赖的伙伴关系。</p>
+          <div class="lc-contact-actions">
+            <button class="lc-btn lc-btn-primary" data-lc-open="submit">我要投稿</button>
+            <button class="lc-btn lc-btn-ghost" data-lc-open="feedback">反馈与建议</button>
+            <button class="lc-btn lc-btn-ghost" data-lc-copy>复制本站链接</button>
+          </div>
+        </div>
+        <div class="lc-contact-info">
+          <div><b>商务合作</b><span>brand@lacecat.studio</span></div>
+          <div><b>创作者对接</b><span>creator@lacecat.studio</span></div>
+          <div><b>工作时间</b><span>周一至周五 10:00 - 19:00</span></div>
+          <div><b>品牌所在地</b><span>中国 · 杭州 · 影像内容中心</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="lc-footer">
+  <div class="lc-container">
+    <div class="lc-footer-grid">
+      <div>
+        <div class="lc-footer-brand">
+          <span class="lc-brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none"><path d="M20 18l10 10 4-4 4 4 10-10v22a8 8 0 0 1-8 8H28a8 8 0 0 1-8-8z" fill="#fff"/><circle cx="26" cy="34" r="2.4" fill="#5a3ee0"/><circle cx="38" cy="34" r="2.4" fill="#ff6fa5"/></svg>
+          </span>
+          蕾丝猫
+        </div>
+        <p class="lc-footer-desc">蕾丝猫官方网站，专注原创影像与内容生态的视频品牌平台。我们持续运营、深耕垂直领域，以匠心与创新为用户提供有品质的精品内容。</p>
+      </div>
+      <div>
+        <h4>浏览</h4>
+        <ul>
+          <li><a href="#lc-focus">焦点内容</a></li>
+          <li><a href="#lc-videos">热门视频</a></li>
+          <li><a href="#lc-topics">专题企划</a></li>
+          <li><a href="#lc-creators">创作者矩阵</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#lc-about">品牌故事</a></li>
+          <li><a href="#lc-updates">企业动态</a></li>
+          <li><a href="#lc-faq">帮助中心</a></li>
+          <li><a href="#lc-contact">合作联系</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>社区</h4>
+        <ul>
+          <li><a href="#lc-reviews">用户口碑</a></li>
+          <li><a href="#lc-stories">影像随笔</a></li>
+          <li><a href="#" data-lc-open="submit">投稿入口</a></li>
+          <li><a href="#" data-lc-open="feedback">意见反馈</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="lc-footer-bottom">
+      <span>蕾丝猫官方网站 · 版权所有 © 2026 蕾丝猫影像文化有限公司</span>
+      <span>持续运营中 · 内容生态共建 · 值得信赖的原创影像平台</span>
+    </div>
+  </div>
+</footer>
+
+<button class="lc-to-top" id="lcToTop" aria-label="回到顶部">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 19V6M6 12l6-6 6 6"/></svg>
+</button>
+
+<div class="lc-toast" id="lcToast" role="status" aria-live="polite"></div>
+
+<div class="lc-modal" id="lcModal">
+  <div class="lc-modal-box" role="dialog" aria-modal="true" aria-labelledby="lcModalTitle">
+    <button class="lc-modal-close" id="lcModalClose" aria-label="关闭弹窗">×</button>
+    <div id="lcModalContent"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toastEl = document.getElementById('lcToast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('is-on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('is-on'); }, 2100);
+  }
+
+  /* ---------- 移动端导航 ---------- */
+  var burger = document.getElementById('lcBurger');
+  var mobileNav = document.getElementById('lcMobileNav');
+  burger.addEventListener('click', function(){
+    var open = mobileNav.classList.toggle('is-open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  mobileNav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      mobileNav.classList.remove('is-open');
+      burger.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* ---------- 搜索前端反馈 ---------- */
+  var searchInput = document.getElementById('lcSearchInput');
+  var searchHint = document.getElementById('lcSearchHint');
+  var searchData = ['木工教程', '城市夜行', '家居收纳', '人物访谈', '创作者招募', '专题企划', '品牌故事', '冬日影像企划'];
+  var hideTimer = null;
+
+  function renderSearch(q){
+    var key = q.trim();
+    if(!key){
+      searchHint.innerHTML = '热门搜索：' + searchData.slice(0,4).map(function(k){return '<b>'+k+'</b>';}).join('、');
+      searchHint.classList.add('is-on');
+      return;
+    }
+    var hits = searchData.filter(function(k){ return k.indexOf(key) !== -1; });
+    if(hits.length){
+      searchHint.innerHTML = '找到 <b>'+hits.length+'</b> 个相关方向：' + hits.join('、') + '，可在下方内容区继续浏览。';
+    }else{
+      searchHint.innerHTML = '暂未匹配到“<b>'+ key.replace(/[<>&]/g,'') +'</b>”，可尝试“教程”“访谈”“城市”等关键词。';
+    }
+    searchHint.classList.add('is-on');
+  }
+  searchInput.addEventListener('input', function(){ renderSearch(searchInput.value); });
+  searchInput.addEventListener('focus', function(){ renderSearch(searchInput.value); });
+  searchInput.addEventListener('blur', function(){
+    clearTimeout(hideTimer);
+    hideTimer = setTimeout(function(){ searchHint.classList.remove('is-on'); }, 160);
+  });
+  searchInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){
+      e.preventDefault();
+      var key = searchInput.value.trim();
+      toast(key ? '已按“' + key + '”为你筛选相关内容' : '请输入搜索关键词');
+      if(key){
+        var grid = document.getElementById('lcVideoGrid');
+        grid.scrollIntoView({behavior:'smooth', block:'start'});
+      }
+    }
+  });
+
+  /* ---------- 视频筛选 ---------- */
+  var filterRow = document.getElementById('lcFilterRow');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.lc-video-card'));
+  filterRow.addEventListener('click', function(e){
+    var btn = e.target.closest('.lc-filter');
+    if(!btn) return;
+    Array.prototype.forEach.call(filterRow.children, function(b){ b.classList.remove('is-active'); });
+    btn.classList.add('is-active');
+    var cat = btn.getAttribute('data-lc-filter');
+    var shown = 0;
+    cards.forEach(function(card){
+      var ok = (cat === 'all') || (card.getAttribute('data-lc-cat') === cat);
+      card.classList.toggle('is-hidden', !ok);
+      if(ok) shown++;
+    });
+    toast('已筛选出 ' + shown + ' 支相关内容');
+  });
+
+  /* ---------- 点赞 / 收藏 ---------- */
+  document.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('[data-lc-like]');
+    if(likeBtn){
+      var liked = likeBtn.classList.toggle('is-liked');
+      likeBtn.textContent = liked ? '♥ 已赞' : '♡ 点赞';
+      toast(liked ? '已为这支作品点赞' : '已取消点赞');
+      return;
+    }
+    var saveBtn = e.target.closest('[data-lc-save]');
+    if(saveBtn){
+      var saved = saveBtn.classList.toggle('is-saved');
+      saveBtn.textContent = saved ? '★ 已收藏' : '☆ 收藏';
+      toast(saved ? '已加入你的收藏片单' : '已从收藏片单移除');
+      return;
+    }
+    var shareBtn = e.target.closest('[data-lc-share]');
+    if(shareBtn){
+      openShare();
+      return;
+    }
+  });
+
+  /* ---------- 数字滚动 ---------- */
+  var counters = Array.prototype.slice.call(document.querySelectorAll('[data-lc-count]'));
+  var counted = false;
+  function runCount(){
+    if(counted) return;
+    counted = true;
+    counters.forEach(function(el){
+      var target = parseInt(el.getAttribute('data-lc-count'), 10) || 0;
+      var start = null;
+      var dur = 1200;
+      function step(ts){
+        if(!start) start = ts;
+        var p = Math.min((ts - start) / dur, 1);
+        var eased = 1 - Math.pow(1 - p, 3);
+        el.textContent = Math.round(target * eased).toLocaleString('zh-CN');
+        if(p < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if(en.isIntersecting){ runCount(); io.disconnect(); } });
+    }, {threshold: .4});
+    var statsEl = document.querySelector('.lc-stats');
+    if(statsEl) io.observe(statsEl);
+  }else{
+    runCount();
+  }
+
+  /* ---------- 弹窗 ---------- */
+  var modal = document.getElementById('lcModal');
+  var modalContent = document.getElementById('lcModalContent');
+  var modalClose = document.getElementById('lcModalClose');
+
+  function openModal(html){
+    modalContent.innerHTML = html;
+    modal.classList.add('is-on');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(){
+    modal.classList.remove('is-on');
+    document.body.style.overflow = '';
+  }
+  modalClose.addEventListener('click', closeModal);
+  modal.addEventListener('click', function(e){ if(e.target === modal) closeModal(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
+
+  function submitBox(){
+    return '' +
+      '<h3 id="lcModalTitle">投稿入口</h3>' +
+      '<p>把你的作品或想法告诉我们，编辑部会在三个工作日内回复。请确保内容为原创，我们尊重每一份创作。</p>' +
+      '<input id="lcSubName" type="text" placeholder="你的昵称 / 创作者名">' +
+      '<input id="lcSubContact" type="text" placeholder="联系方式（邮箱或微信）">' +
+      '<textarea id="lcSubIntro" placeholder="作品简介或想拍摄的主题（不少于 20 字）"></textarea>' +
+      '<button class="lc-btn lc-btn-primary" style="width:100%;" id="lcSubBtn">提交投稿</button>';
+  }
+  function feedbackBox(){
+    return '' +
+      '<h3 id="lcModalTitle">反馈与建议</h3>' +
+      '<p>我们非常在意你的使用感受。无论是内容建议、播放体验还是合作意向，都可以写在这里。</p>' +
+      '<select id="lcFbType"><option>内容建议</option><option>播放体验</option><option>版权与举报</option><option>商务合作</option></select>' +
+      '<textarea id="lcFbText" placeholder="请描述你遇到的问题或建议"></textarea>' +
+      '<button class="lc-btn lc-btn-primary" style="width:100%;" id="lcFbBtn">提交反馈</button>';
+  }
+  function openShare(){
+    openModal('' +
+      '<h3 id="lcModalTitle">分享这份内容</h3>' +
+      '<p>选择你要分享到的渠道，或直接复制页面链接发给朋友。</p>' +
+      '<div class="lc-share-row">' +
+        '<button data-lc-share-to="微信">微信</button>' +
+        '<button data-lc-share-to="微博">微博</button>' +
+        '<button data-lc-share-to="QQ">QQ</button>' +
+        '<button data-lc-share-to="复制链接">复制链接</button>' +
+      '</div>');
+  }
+
+  document.addEventListener('click', function(e){
+    var opener = e.target.closest('[data-lc-open]');
+    if(opener){
+      e.preventDefault();
+      var type = opener.getAttribute('data-lc-open');
+      if(type === 'submit') openModal(submitBox());
+      else if(type === 'feedback') openModal(feedbackBox());
+      return;
+    }
+    var cr = e.target.closest('[data-lc-creator]');
+    if(cr){
+      var parts = cr.getAttribute('data-lc-creator').split('|');
+      openModal('<h3 id="lcModalTitle">'+parts[0]+'</h3><p>'+parts[1]+'</p><p>这位创作者的作品已收录在蕾丝猫创作者矩阵中，点击页面中的视频卡片即可浏览相关内容。</p>');
+      return;
+    }
+    var copyBtn = e.target.closest('[data-lc-copy]');
+    if(copyBtn){
+      e.preventDefault();
+      copyLink();
+      return;
+    }
+    var st = e.target.closest('[data-lc-share-to]');
+    if(st){
+      var ch = st.getAttribute('data-lc-share-to');
+      if(ch === '复制链接'){ copyLink(); }
+      else{ toast('已生成分享到' + ch + '的提示'); }
+      closeModal();
+      return;
+    }
+    if(e.target.id === 'lcSubBtn'){
+      var n = (document.getElementById('lcSubName').value || '').trim();
+      var c = (document.getElementById('lcSubContact').value || '').trim();
+      var t = (document.getElementById('lcSubIntro').value || '').trim();
+      if(!n || !c || t.length < 10){ toast('请完整填写昵称、联系方式与不少于 10 字的简介'); return; }
+      closeModal();
+      toast('投稿已提交，编辑部会尽快回复你');
+      return;
+    }
+    if(e.target.id === 'lcFbBtn'){
+      var txt = (document.getElementById('lcFbText').value || '').trim();
+      if(!txt){ toast('请先填写反馈内容'); return; }
+      closeModal();
+      toast('反馈已收到，感谢你的建议');
+      return;
+    }
+  });
+
+  function copyLink(){
+    var link = '蕾丝猫 · 官方视频品牌站';
+    function done(){ toast('页面信息已复制，可粘贴分享'); closeModal(); }
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(link).then(done).catch(function(){ toast('复制失败，请手动分享'); });
+    }else{
+      toast('已生成分享文案：' + link);
+      closeModal();
+    }
+  }
+
+  /* ---------- 回到顶部 ---------- */
+  var toTop = document.getElementById('lcToTop');
+  window.addEventListener('scroll', function(){
+    toTop.classList.toggle('is-on', window.scrollY > 520);
+  }, {passive:true});
+  toTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  /* ---------- 导航高亮 ---------- */
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('.lc-nav a'));
+  var sections = navLinks.map(function(a){ return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+  if('IntersectionObserver' in window){
+    var navIo = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          navLinks.forEach(function(a){
+            a.classList.toggle('is-active', a.getAttribute('href') === '#' + en.target.id);
+          });
+        }
+      });
+    }, {rootMargin:'-140px 0px -60% 0px', threshold:0});
+    sections.forEach(function(s){ navIo.observe(s); });
+  }
+})();
+</script>
+</body>
+                    </html>
